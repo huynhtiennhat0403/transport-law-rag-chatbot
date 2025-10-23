@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     COLLECTION_NAME: str = "law_traffic_vietnam"
 
     # Embedding model
-    EMBEDDING_MODEL_NAME: str = "BAAI/bge-m3"
+    EMBEDDING_MODEL: str = "BAAI/bge-m3"
 
     # LLM 
     DEFAULT_LLM_MODEL: str = "llama-3.3-70b-versatile"

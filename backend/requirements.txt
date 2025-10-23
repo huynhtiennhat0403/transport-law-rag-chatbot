@@ -1,0 +1,20 @@
+# FastAPI Framework
+fastapi==0.116.2
+uvicorn[standard]==0.35.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Vector Database & Embeddings - UPDATE VERSIONS
+chromadb==1.2.1
+sentence-transformers==5.1.1
+
+# LLM API
+groq==0.33.0
+
+# Data validation
+pydantic==2.11.9
+pydantic-settings==2.11.0
+
+# Additional
+python-multipart==0.0.20
