@@ -13,6 +13,6 @@ def get_embedding_model() -> SentenceTransformer:
     Only load once and reuse
     """
 
-    model = SentenceTransformer(settings.EMBEDDING_MODEL_NAME)
-    print(f"Embedding model '{settings.EMBEDDING_MODEL_NAME}' loaded.")
+    model = SentenceTransformer(settings.EMBEDDING_MODEL)
+    print(f"Embedding model '{settings.EMBEDDING_MODEL}' loaded.")
     return model
