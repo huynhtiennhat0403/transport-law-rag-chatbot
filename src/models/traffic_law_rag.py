@@ -165,7 +165,7 @@ Hãy trả lời câu hỏi dựa trên các quy định trên."""
         question: str, 
         n_results: int = 5, 
         show_sources: bool = True,
-        model: str = "llama-3.1-70b-versatile"
+        model: str = "llama-3.3-70b-versatile"
     ) -> Tuple[str, Dict]:
         """
         Truy vấn end-to-end: Retrieve → Generate
