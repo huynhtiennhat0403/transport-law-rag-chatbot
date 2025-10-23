@@ -14,7 +14,7 @@ def get_chromadb_client() -> chromadb.Client:
     return client
 
 @lru_cache()
-def get_chromadb_collection() -> chromadb.Collection:
+def get_collection() -> chromadb.Collection:
     """Get or create the ChromaDB collection."""
     client = get_chromadb_client()
     collection = client.get_collection(name=settings.COLLECTION_NAME)
